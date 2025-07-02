@@ -75,4 +75,4 @@ python pal2nal.py -i sample_cds.fasta -o aligned_linsi.fasta --mafft-args "--lin
 ```
 
 **Explanation:**  
-The script passes the `"--linsi"` and `"reorder"` flag directly to MAFFT, overriding the default `"--auto --quiet"`. This is useful for difficult alignments that may benefit from more sophisticated algorithms.
+The script passes the `"--linsi"` and `"--reorder"` flag directly to MAFFT, overriding the default `"--auto --quiet"`. This is useful for difficult alignments that may benefit from more sophisticated algorithms.
