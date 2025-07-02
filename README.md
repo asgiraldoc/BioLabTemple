@@ -68,10 +68,10 @@ This performs the alignment using genetic code `2` (The Vertebrate Mitochondrial
 
 ### Example 3: Advanced Alignment with Custom MAFFT Parameters
 
-For a potentially more accurate (but slower) alignment, you can override the default MAFFT arguments using the `--mafft-args` flag. This example uses the L-INS-i algorithm, which is suitable for sequences with one alignable domain.
+For a potentially more accurate (but slower) alignment, you can override the default MAFFT arguments using the `--mafft-args` flag. This example uses the L-INS-i algorithm, which is suitable for sequences with one alignable domain and reorder the data according to similarity.
 
 ```bash
-python pal2nal.py -i sample_cds.fasta -o aligned_linsi.fasta --mafft-args "--linsi"
+python pal2nal.py -i sample_cds.fasta -o aligned_linsi.fasta --mafft-args "--linsi --reorder"
 ```
 
 **Explanation:**  
