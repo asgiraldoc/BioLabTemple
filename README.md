@@ -10,9 +10,6 @@ Before you begin, ensure you have the following installed:
 
 - **Python 3**
 - **Biopython**: Install using the command  
-  ```bash
-  pip install biopython
-  ```
 - **MAFFT**: Must be installed and accessible in your system's `PATH`.
 
 ---
