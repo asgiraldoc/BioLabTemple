@@ -18,7 +18,7 @@ Before you begin, ensure you have the following installed:
 
 - `-i`, `--input`: **(Required)** Path to the input FASTA file containing nucleotide coding sequences.  
 - `-o`, `--output`: **(Required)** Path for the output codon-aligned FASTA file.  
-- `-g`, `--genetic-code`: **(Optional)** The NCBI genetic code table to use for translation. Default: `1` (The Standard Code).  [https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi](url)
+- `-g`, `--genetic-code`: **(Optional)** The NCBI genetic code table to use for translation. Default: `1` [(The Standard Code)]([url](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi))
 - `--mafft-args`: **(Optional)** A quoted string of arguments to pass to MAFFT. Default: `"--auto --quiet"`.
 
 ---
