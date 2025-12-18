@@ -1,4 +1,4 @@
-# PAL2NAL: A Codon-Based Alignment Script
+# PAL2NAL: A Codon-Based Alignment
 
 This script automates the process of creating a codon-based nucleotide alignment from a set of unaligned coding sequences (CDS). It translates the sequences, aligns them at the protein level using MAFFT, and then back-translates the alignment to reflect the original codons.
 
